@@ -24,26 +24,53 @@
 .avatertitle{
   font-weight: 900;
 }
+.avatertext{
+  font-size: 25rpx;
+  line-height: 40rpx;
+}
+
+.about{
+  width: 100rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1px solid white;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+}
 .avaterabout{
   width: 100rpx;
   text-align: center;
-
   font-size: 23rpx;
   padding: 10rpx;
   border: 1px solid white;
   border-radius: 15rpx;
 }
 
+.flexbox{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
 .flexitem{
   width: 100rpx;
   height: 100rpx;
   background-color: red;
   border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 25rpx;
+}
+.flexitem:nth-child(1){
+  background-color: #f6b059;
 }
 .flexitem image{
-  width: 60rpx;
-  height: 60rpx;
-  margin-top: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 25rpx;
 }
 .yellow{
   background-color: #f6b059;

@@ -3,27 +3,63 @@
 
   <view class="avater">
     <image src="../../imgs/1.png" mode=""/>
-
     <view class="avatercontent">
     <view class="avatertitle">智慧门户网站</view>
     <view class="avatertextOne" style="margin-top: 20rpx;">学校概况 办事指南等功能</view>
     <view class="avatertextOne" style="margin-bottom: 20rpx;">方便快捷 办事实时查看消息</view>
     <view class="avaterabout">去了解</view>
-    <!-- 导航栏 -->
-    <view class="flexbox">
-    <view class="flexitem yellow"></view>
-    <image src="../../imgs/school.svg" mode=""/>
-    <view class="flexitem purple"></view>
-    <img src="../../imgs/score.svg" alt=""/>
-    <view class="flexitem red"></view>
-    <img src="../../imgs/order.svg" alt=""/>
-    <view class="flexitem green"></view>
-    <img src="../../imgs/danger.svg" alt=""/>
-    <view class="flexitem bule"></view>
-    <img src="../../imgs/all.svg" alt=""/>
-    </view>
-    <view></view>
-    <view></view>
     </view>
   </view>
+
+    <!-- 导航栏 -->
+    <view class="flexbox">
+    <view class="flexitem yellow">
+    <image src="../../imgs/school.svg" mode=""/>
+    </view>
+    
+    <view class="flexitem purple">
+    <image src="../../imgs/score.svg" alt=""/>
+    </view>
+    
+    <view class="flexitem red"> 
+    <image src="../../imgs/order.svg" alt=""/>
+    </view>
+   
+    <view class="flexitem green">
+    <image src="../../imgs/danger.svg" alt=""/>
+    </view>
+    
+    <view class="flexitem bule">
+    <image src="../../imgs/all.svg" alt=""/>
+    </view>
+    
+    </view>
+
+
+    <view class="flexitem">
+      <image src="../../imgs/school.svg" mode=""/>
+      <view>学校概况</view>
+    </view>
+
+    <view class="flexitem">
+      <img src="../../imgs/score.svg" alt=""/>
+      <view>成绩查询</view>
+    </view>
+
+    <view class="flexitem">
+      <img src="../../imgs/order.svg" alt=""/>
+      <view>缴费入口</view>
+    </view>
+
+    <view class="flexitem">
+      <img src="../../imgs/danger.svg" alt=""/>
+      <view>学院预警</view>
+    </view>
+
+    <view class="flexitem">
+      <img src="../../imgs/all.svg" alt=""/>
+      <view></view>
+    </view>
+    </view>
+
 
