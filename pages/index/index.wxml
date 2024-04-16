@@ -70,7 +70,11 @@
 
 <!-- 中部渐变框 -->
 <view class="flexboxOne">
-<view class="dlexitemOne">1</view>
-<view class="dlexitemOne">2</view>
+<view class="flexitemOne">
+<image src="../../imgs/man.png" mode=""/>
+</view>
+<view class="flexitemOne">
+  <image src="../../imgs/woman.png" mode=""/>
+</view>
 </view>
 

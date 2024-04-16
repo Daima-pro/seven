@@ -89,14 +89,41 @@
 
 .flexboxOne{
   width: 90%;
-  margin: 80rpx auto;
+  margin: 100rpx auto;
   display: flex;
   justify-content: space-between;
 }
 .flexitemOne{
- width:45%;
+  position: relative;
+}
+.flexitemOne:nth-child(1){
+ width:47%;
  height: 200rpx;
- background-color: red;
+ /* background-color: red; */
+ background-image:linear-gradient(to right,#feb27a,#ff7d5d) ;
  border-top-left-radius: 15rpx;
  border-top-right-radius: 15rpx;
+ border-bottom-left-radius: 15rpx;
 }
+.flexitemOne:nth-child(1)>image{
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 0rpx;
+}
+
+.flexitemOne:nth-child(2){
+  width:47%;
+  height: 200rpx;
+  /* background-color: red; */
+  background-image:linear-gradient(to right,#93f7da,#68d0e3) ;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+  border-bottom-left-radius: 15rpx;
+ }
+ .flexitemOne:nth-child(2)>image{
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  right: -8rpx;
+ }
