@@ -1,47 +1,47 @@
 <!--index.wxml-->
 <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
 
-  <view class="avater">
-    <image src="../../imgs/1.png" mode=""/>
-    <view class="avatercontent">
+<view class="avater">
+  <image src="../../imgs/1.png" mode="" />
+  <view class="avatercontent">
     <view class="avatertitle">智慧门户网站</view>
     <view class="avatertextOne" style="margin-top: 20rpx;">学校概况 办事指南等功能</view>
     <view class="avatertextOne" style="margin-bottom: 20rpx;">方便快捷 办事实时查看消息</view>
     <view class="avaterabout">去了解</view>
-    </view>
+  </view>
+</view>
+
+<!-- 导航栏 -->
+<view class="flexbox">
+  <view class="flexitem yellow">
+    <image src="../../imgs/school.svg" mode="" />
+    <view>学校概况</view>
   </view>
 
-    <!-- 导航栏 -->
-    <view class="flexbox">
-    <view class="flexitem yellow">
-    <image src="../../imgs/school.svg" mode=""/>
-    <view>学校概况</view>
-    </view>
-    
-    <view class="flexitem purple">
-    <image src="../../imgs/score.svg" alt=""/>
+  <view class="flexitem purple">
+    <image src="../../imgs/score.svg" alt="" />
     <view>成绩查询</view>
-    </view>
-    
-    <view class="flexitem red"> 
-    <image src="../../imgs/order.svg" alt=""/>
+  </view>
+
+  <view class="flexitem red">
+    <image src="../../imgs/order.svg" alt="" />
     <view>缴费入口</view>
-    </view>
-   
-    <view class="flexitem green">
-    <image src="../../imgs/danger.svg" alt=""/>
+  </view>
+
+  <view class="flexitem green">
+    <image src="../../imgs/danger.svg" alt="" />
     <view>学院预警</view>
-    </view>
-    
-    <view class="flexitem bule">
-    <image src="../../imgs/all.svg" alt=""/>
+  </view>
+
+  <view class="flexitem bule">
+    <image src="../../imgs/all.svg" alt="" />
     <view>全部</view>
-    </view>
-    
-    </view>
+  </view>
+
+</view>
 
 
-    <!-- <view class="flexitem">
+<!-- <view class="flexitem">
       <image src="../../imgs/school.svg" mode=""/>
       <view>学校概况</view>
     </view>
@@ -70,22 +70,28 @@
 
 <!-- 中部渐变框 -->
 <view class="flexboxOne">
-<view class="flexitemOne">
-<image src="../../imgs/man.png" mode=""/>
-<view class="titletextleft">
-<view>待办事项</view>
-<view>我的待办事项</view>
-</view>
-</view>
-<view class="flexitemOne">
-  <image src="../../imgs/woman.png" mode=""/>
-  <view class="titletextright">
-  <view>办事指南</view>
-  <view>办事指南汇总</view>
+  <view class="flexitemOne">
+    <image src="../../imgs/man.png" mode="" />
+    <view class="titletextleft">
+      <view>待办事项</view>
+      <view>我的待办事项</view>
+    </view>
   </view>
+  <view class="flexitemOne">
+    <image src="../../imgs/woman.png" mode="" />
+    <view class="titletextright">
+      <view>办事指南</view>
+      <view>办事指南汇总</view>
+    </view>
+  </view>
+ 
 </view>
-</view>
-
+ <view class="column_notice">
+      <view>
+        <image src="../../imgs/audio.svg" mode=""/>
+      </view>
+      <text>关于系统上线运行的时间</text>
+    </view>
 <!-- 体验面板 -->
 
 
@@ -93,26 +99,27 @@
 
 
 <view class="applist">
-<view class="apptitle">推荐应用</view>
-<view class="apptext">根据你个最近使用和办理的应用为你推荐</view>
-<view class="scroll">
-<view class="scrollitem">
-<view class="scrollitemBorder green1">
-<image src="../../imgs/scoreA.svg" mode=""/>
-</view>
-<view></view>
-v
-</view>
-<view class="scrollitem">
-  <view class="scrollitemBorder yellow1">
-<image src="../../imgs/books.svg" mode=""/>
-</view>
-</view>
-<view class="scrollitem">
-  <view class="scrollitemBorder blue1">
-<image src="../../imgs/club.svg" mode=""/>
-</view></view>
-</view>
+  <view class="apptitle">推荐应用</view>
+  <view class="apptext">根据你个最近使用和办理的应用为你推荐</view>
+  <view class="scroll">
+    <view class="scrollitem">
+      <view class="scrollitemBorder green1">
+        <image src="../../imgs/scoreA.svg" mode="" />
+      </view>
+      <view></view>
+
+    </view>
+    <view class="scrollitem">
+      <view class="scrollitemBorder yellow1">
+        <image src="../../imgs/books.svg" mode="" />
+      </view>
+    </view>
+    <view class="scrollitem">
+      <view class="scrollitemBorder blue1">
+        <image src="../../imgs/club.svg" mode="" />
+      </view>
+    </view>
+  </view>
 </view>
 
 <!-- 通知公告 -->
