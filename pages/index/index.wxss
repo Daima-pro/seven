@@ -150,3 +150,43 @@ font-size: 22rpx;
 .titletextright>view:nth-child(2){
 font-size: 22rpx;
 }
+/* 通知 */
+
+.page-section-spacing{
+margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 30%;
+  height: 300rpx;
+  background-color: red;
+}
+
+.scrollitemBorder{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: red;
+  margin: auto;
+  margin-top: 30rpx;
+  border-radius: 50%;
+  text-align: center;
+}
+.scrollitemBorder image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15rpx;
+}
+.green1{
+background-image: linear-gradient(to right,#28e997,#14bd92);
+}
+.yellow1{
+  background-image: linear-gradient(to right,#fcba2b,#ff8e10);
+}
+.blue1{background-image: linear-gradient(to right,#16b5f4,#2993df);
+}

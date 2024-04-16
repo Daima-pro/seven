@@ -86,3 +86,26 @@
 </view>
 </view>
 
+<!-- 渐变框下面 -->
+
+
+<view class="applist">
+<view class="apptitle">推荐应用</view>
+<view class="apptext">根据你个最近使用和办理的应用为你推荐</view>
+<view class="scroll">
+<view class="scrollitem">
+<view class="scrollitemBorder green1">
+<image src="../../imgs/scoreA.svg" mode=""/>
+</view>
+</view>
+<view class="scrollitem">
+  <view class="scrollitemBorder yellow1">
+<image src="../../imgs/books.svg" mode=""/>
+</view>
+</view>
+<view class="scrollitem">
+  <view class="scrollitemBorder blue1">
+<image src="../../imgs/club.svg" mode=""/>
+</view></view>
+</view>
+</view>
