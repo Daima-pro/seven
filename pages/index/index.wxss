@@ -207,7 +207,7 @@ background-image: linear-gradient(to right,#28e997,#14bd92);
 }
 .blue1{background-image: linear-gradient(to right,#16b5f4,#2993df);
 }
-.scrollitem>view:nth-child(3){
+.scrollitem>view:nth-child(4){
   font-size: 20rpx;
   text-align: center;
   margin-top: 10rpx;

@@ -100,28 +100,19 @@
 <view class="scrollitemBorder green1">
 <image src="../../imgs/scoreA.svg" mode=""/>
 </view>
-<view>成绩查询</view>
-<view>查询当前及历史成绩</view>
-<view>
-<image src="../../imgs/eyes.svg" mode=""/>
-200+
-</view>
+<view></view>
+v
 </view>
 <view class="scrollitem">
   <view class="scrollitemBorder yellow1">
 <image src="../../imgs/books.svg" mode=""/>
-<view>图书借阅</view>
-<view>查看图书借阅记录</view>
-<view>100+</view>
 </view>
 </view>
 <view class="scrollitem">
   <view class="scrollitemBorder blue1">
 <image src="../../imgs/club.svg" mode=""/>
-<view>网上查询</view>
-<view>自主网上缴费</view>
-<view>150+</view>
 </view></view>
-
+</view>
+</view>
 
 <!-- 通知公告 -->
