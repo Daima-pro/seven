@@ -72,9 +72,17 @@
 <view class="flexboxOne">
 <view class="flexitemOne">
 <image src="../../imgs/man.png" mode=""/>
+<view class="titletextleft">
+<view>待办事项</view>
+<view>我的待办事项</view>
+</view>
 </view>
 <view class="flexitemOne">
   <image src="../../imgs/woman.png" mode=""/>
+  <view class="titletextright">
+  <view>办事指南</view>
+  <view>办事指南汇总</view>
+  </view>
 </view>
 </view>
 

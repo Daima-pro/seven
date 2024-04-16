@@ -106,10 +106,11 @@
  border-bottom-left-radius: 15rpx;
 }
 .flexitemOne:nth-child(1)>image{
-  width: 80%;
-  height: 100%;
+  width: 60%;
+  height: 90%;
   position: absolute;
   left: 0rpx;
+  bottom: 0;
 }
 
 .flexitemOne:nth-child(2){
@@ -122,8 +123,30 @@
   border-bottom-left-radius: 15rpx;
  }
  .flexitemOne:nth-child(2)>image{
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 90%;
   position: absolute;
   right: -8rpx;
+  bottom: 0;
  }
+ .titletextleft{
+   position: absolute;
+   top: 50rpx;
+   right: 30rpx;
+   color: white;
+   line-height: 35rpx;
+ }
+ .titletextleft>view:nth-child(2){
+font-size: 22rpx;
+ }
+
+ .titletextright{
+  position: absolute;
+  top: 50rpx;
+  left: 30rpx;
+  color: white;
+  line-height: 35rpx;
+}
+.titletextright>view:nth-child(2){
+font-size: 22rpx;
+}
