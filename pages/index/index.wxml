@@ -15,28 +15,33 @@
     <view class="flexbox">
     <view class="flexitem yellow">
     <image src="../../imgs/school.svg" mode=""/>
+    <view>学校概况</view>
     </view>
     
     <view class="flexitem purple">
     <image src="../../imgs/score.svg" alt=""/>
+    <view>成绩查询</view>
     </view>
     
     <view class="flexitem red"> 
     <image src="../../imgs/order.svg" alt=""/>
+    <view>缴费入口</view>
     </view>
    
     <view class="flexitem green">
     <image src="../../imgs/danger.svg" alt=""/>
+    <view>学院预警</view>
     </view>
     
     <view class="flexitem bule">
     <image src="../../imgs/all.svg" alt=""/>
+    <view>全部</view>
     </view>
     
     </view>
 
 
-    <view class="flexitem">
+    <!-- <view class="flexitem">
       <image src="../../imgs/school.svg" mode=""/>
       <view>学校概况</view>
     </view>
@@ -58,8 +63,9 @@
 
     <view class="flexitem">
       <img src="../../imgs/all.svg" alt=""/>
-      <view></view>
+      <view>全部</view>
     </view>
-    </view>
+    </view> -->
+
 
 
