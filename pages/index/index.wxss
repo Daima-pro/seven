@@ -64,14 +64,13 @@
   line-height: 80rpx;
   font-size: 25rpx;
 }
-.flexitem:nth-child(1){
-  background-color: #f6b059;
-}
+
 .flexitem image{
   width: 50rpx;
   height: 50rpx;
   margin-top: 25rpx;
 }
+
 .yellow{
   background-color: #f6b059;
 }
@@ -86,4 +85,18 @@
 }
 .blue{
   background-color: #1e9dff;
+}
+
+.flexboxOne{
+  width: 90%;
+  margin: 80rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+.flexitemOne{
+ width:45%;
+ height: 200rpx;
+ background-color: red;
+ border-top-left-radius: 15rpx;
+ border-top-right-radius: 15rpx;
 }

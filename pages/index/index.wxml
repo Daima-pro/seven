@@ -68,4 +68,9 @@
     </view> -->
 
 
+<!-- 中部渐变框 -->
+<view class="flexboxOne">
+<view class="dlexitemOne">1</view>
+<view class="dlexitemOne">2</view>
+</view>
 
